@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--custom style-->
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./registercss.css">
+    <script src="https://kit.fontawesome.com/3995bc8efe.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="row">
+                <div class="col liquid">
+                          <h4><i class="fab fa-angellist"></i>$tudy Jamm</h4>
+                <!--owl-carousel-->
+                <div class="owl-carousel owl-theme">
+                    <!--IMAGE Size is 640 X 380-->
+                    <img src="./IMAGES/Register1.jpg" alt="" class="login_img" style="opacity: .6">
+                    <img src="./IMAGES/world.jpg" alt="" class="login_img" style="opacity: .4"> 
+                    <img src="" alt="" class="login_img">
+                </div>
+                <!--owl-carousel-->
+                <div class="follow">
+                    Follow Us 
+                     <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                </div>
+                </div>
+               
+                <div class="col login">
+                    <button type="button" class="btn btn-signup">Sign up</button>
+                <form action="">
+                    <div class="title">
+                        <h6>We keep everything safe and secure</h6>
+                        <h3>Ready to Login</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Email"  name="email" class="form-input">
+                            <div class="input-icon">
+                                <i class="fas fa-user-lock"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <input type="password" placeholder="password" name="password" class="form-input">
+                                <div class="input-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                         </div>
+                <button type="submit" class="btn btn-login">Login</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+ $('.owl-carousel').owlCarousel({
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:2000,
+  autoplayHoverPause:true,
+  items:1
+ });
+ });
+</script>
+</body>
+</html>
